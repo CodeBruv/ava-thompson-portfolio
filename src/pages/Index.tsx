@@ -16,13 +16,13 @@ const Index = () => {
           Designing thoughtful digital experiences
         </h1>
         <p className="mt-4 text-muted-foreground text-lg max-w-[550px] leading-relaxed">
-          I'm Ava Thompson — a mid-level UX designer who turns complex problems into clear, human-centered solutions.
+          I'm Ava Thompson, a mid-level UX designer who turns complex problems into clear, human-centered solutions.
         </p>
       </section>
 
       {/* Work */}
       <section className="section-container">
-        <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-8">Selected Work</p>
+        <p className="text-xs font-medium tracking-widest uppercase text-muted-foreground mb-8">Recent Work</p>
 
         {loading && <LoadingState />}
         {error && <p className="text-destructive">{error}</p>}
